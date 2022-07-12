@@ -18,7 +18,10 @@ header{
     flex-direction: column;
     line-height: 10px;
     font-size: 15px;
+    
 }
+
+
 li{
     display: inline-block;
     margin: 20px;
@@ -71,7 +74,12 @@ p{
     font-family: poppinslight;
 }
 
-img{
+#logo-tittle{
+    width: 170px;
+    padding-left: 0%;
+}
+
+#logo-inicio{
     width: 400px;
     padding-left: 40%;
   }
@@ -140,7 +148,7 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.3s ease-in-out;
+    
 }
 
 .icons li a:hover{
@@ -157,12 +165,34 @@ footer{
     align-items: center;
 }
 
-.foto-jaime{
-    width: 400px;
-    padding-left: 40%;
-    padding: auto;
-    float: left;
+.container{
+    display: flex;
+    width: 100%;
+    
+    
 }
+
+.foto-advs{
+    padding-left: 0%;
+    width: 15%;
+}
+
+.foto-advs:hover{
+    padding-left: 0%;
+    width: 20%;
+    transition: 0.3s ease-in-out;
+}
+
+#curriculos{
+    line-height: 20px;
+    font-size: medium;
+    max-width: 600px;
+    font-family: poppinsmedium;
+    text-align: justify;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
 
 @media screen and (max-width: 960px){
     header{
@@ -205,11 +235,8 @@ footer{
     font-weight: normal;
     font-style: normal;
   
-  }
-  
-  
-  
-  
+  }  
+
   @font-face {
     font-family: 'poppinsbold';
     src: url('../components/fonts/poppins-black-webfont.woff2') format('woff2'),
@@ -217,8 +244,7 @@ footer{
     font-weight: normal;
     font-style: normal;
   
-  }
-  
+  } 
   
   @font-face {
     font-family: 'poppinslight';
@@ -228,8 +254,7 @@ footer{
     font-style: normal;
   
   }
-  
-  
+    
   @font-face {
     font-family: 'poppinsmedium';
     src: url('../components/fonts/poppins-medium-webfont.woff2') format('woff2'),
