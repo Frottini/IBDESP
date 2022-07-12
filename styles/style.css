@@ -1,0 +1,259 @@
+body{
+    background-color: rgb(235, 235, 235);
+    color: #33358f;
+    font-family: 'poppinsregular';
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tittle{
+    flex-direction: column;
+    line-height: 10px;
+    font-size: 15px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: #33358f;
+}
+
+a:hover{
+    color: #5759f1;
+    transition: 0.3s all;
+}
+
+#whatsapp-btn{
+    border: 2px solid #5759f1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#whatsapp-btn:hover{
+    background-color: #5759f1;
+    color: white;
+    
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color:#5759f1;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 400px;
+    padding-left: 40%;
+  }
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #5759f1;
+    color: white;
+    font-weight: bold;
+}
+
+form:hover [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #5759f1;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+
+}
+
+#sobre-p{
+    line-height: 20px;
+    max-width: 800px;
+    font-family: poppinsmedium;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.icons{
+    padding: 32px;
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons li{
+    list-style: none;
+}
+
+.icons li a{
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #222;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.icons li a:hover{
+    background-color:#5759f1;
+    transform: translateY(-10px);
+
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto-jaime{
+    width: 400px;
+    padding-left: 40%;
+    padding: auto;
+    float: left;
+}
+
+@media screen and (max-width: 960px){
+    header{
+     flex-direction: column;
+    }
+    
+    main{
+     flex-direction: column;
+    }
+ 
+    h2{ 
+     font-size: 32px;
+    }
+ 
+    form{
+     margin: 0 auto;
+     width: 100%;
+     }
+ 
+     input{
+         align-self: center;
+     }
+     img{
+         margin-top: 60px;
+         width: 350px;
+         padding-left: 10%;
+     }
+ 
+     ul{
+         text-align: center;
+     }
+ 
+ }
+
+ 
+@font-face {
+    font-family: 'poppinsblack';
+    src: url('../components/fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('../components/font/poppins-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  
+  
+  @font-face {
+    font-family: 'poppinsbold';
+    src: url('../components/fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('../components/fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  @font-face {
+    font-family: 'poppinslight';
+    src: url('../components/fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../components/fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  @font-face {
+    font-family: 'poppinsmedium';
+    src: url('../components/fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../components/fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'poppinsregular';
+    src: url('../components/fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../components/fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'poppinssemibold';
+    src: url('../components/fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../components/fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
