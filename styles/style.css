@@ -2,7 +2,7 @@ body{
     background-color: rgb(235, 235, 235);
     color: #33358f;
     font-family: 'poppinsregular';
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
 }
@@ -38,14 +38,33 @@ a:hover{
 
 #whatsapp-btn{
     border: 2px solid #5759f1;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 09px;
+    border-radius: 09px;
 }
 
+
 #whatsapp-btn:hover{
-    background-color: #5759f1;
+    background-color: #1af56e;
+    border: 2px solid #1af56e;
     color: white;
     
+}
+
+#saibamais-btn{
+    background-color: #f51a1a;
+    border: 2px solid #f51a1a;
+    color: white;
+    padding: 09px;
+    border-radius: 35px;
+}
+
+
+#saibamais-btn:hover{
+    background-color: #1af56e;
+    border: 2px solid #1af56e;
+    color: white;
+    font-size: larger;
+      
 }
 
 h1{
@@ -165,6 +184,21 @@ footer{
     align-items: center;
 }
 
+.footer-c.midi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+   
+}
+
+.midias-sociais{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .container{
     display: flex;
     width: 100%;
@@ -192,6 +226,29 @@ footer{
     margin-top: 0px;
     margin-left: 15px;
 }
+
+
+.Youtube-173{
+    display: flex;
+    align-items: center;
+    margin-left: 0% ;
+    width: 585px; 
+    height: 330px; 
+    margin-top: 50px;
+}
+
+#curso-text{
+    line-height: 26px;
+    font-size: medium;
+    max-width: 600px;
+    font-family: poppinsmedium;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+
+
 
 
 @media screen and (max-width: 760px){
@@ -227,7 +284,7 @@ footer{
      }
 
      #logo-tittle{
-        width: 70px;
+        width: 150px;
         padding-left: 0%;
         margin-top: 10px;
     }
@@ -246,7 +303,27 @@ footer{
         padding-left: 0%;
         width: 20%;
         margin-top: 0;
-    }   
+    }  
+    
+     
+   .Youtube-173{
+        padding-left: 0%;
+        width: 200px;
+        margin-top: 0;
+        flex-direction: column;
+    
+    }
+    
+    #curso-text{
+        line-height: 20px;
+        font-size: small;
+        max-width: 600px;
+        font-family: poppinsmedium;
+        text-align: justify;
+        margin-top: 0px;
+        margin-left: 15px;
+        flex-direction: column;
+    }
  
  }
 
